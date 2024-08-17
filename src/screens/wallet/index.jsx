@@ -71,6 +71,16 @@ const WalletCreationPage = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View>
+        <Text
+          style={[
+            styles.label,
+            {
+              fontSize: 26,
+            },
+          ]}>
+          React Native Quick Wallet
+        </Text>
+        <Gap gap={'10%'} />
         <Button
           text={'Create a New Wallet'}
           handleOnPress={() => {
@@ -91,7 +101,7 @@ const WalletCreationPage = () => {
             importWallet();
           }}
         />
-        <Gap gap={'20%'} />
+        <Gap gap={'10%'} />
         {error.status && (
           <Text
             style={[
