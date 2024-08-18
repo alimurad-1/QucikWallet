@@ -10,6 +10,7 @@ const RecoveryPhraseInput = ({recoveryPhrase, setRecoveryPhrase}) => {
     <TextInput
       style={styles.input}
       placeholder="Enter your 12 or 24-word recovery phrase"
+      placeholderTextColor={'black'}
       value={recoveryPhrase}
       onChangeText={handleInputChange}
       multiline={true}
@@ -31,6 +32,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     height: 100, // Adjust height based on how many lines you expect
     textAlignVertical: 'top', // Ensure text starts at the top
+    color: 'black',
   },
 });
 

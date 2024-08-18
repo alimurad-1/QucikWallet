@@ -23,6 +23,7 @@ const Button = ({text, handleOnPress}) => {
           textAlign: 'center',
           color: 'white',
           fontSize: 20,
+          color: 'white',
         }}>
         {text}
       </Text>

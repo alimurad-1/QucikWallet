@@ -130,5 +130,6 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     fontSize: 16,
     fontWeight: 'bold',
+    color: 'black',
   },
 });
